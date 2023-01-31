@@ -1,0 +1,31 @@
+{
+    "emmet.useInlineCompletions": true,
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "editor.quickSuggestionsDelay": 0,
+    "windicss.sortOnSave": true,
+    "windicss.enableEmmetCompletion": true,
+    "editor.find.autoFindInSelection": "always",
+    "references.preferredLocation": "view",
+    "editor.tabCompletion": "on",
+    "emmet.triggerExpansionOnTab": true,
+    "workbench.editor.scrollToSwitchTabs": true,
+    "tabout.disableByDefault": true,
+    "css.lint.unknownProperties": "ignore",
+    "css.lint.unknownAtRules": "ignore",
+    "less.lint.unknownAtRules": "ignore",
+    "less.lint.unknownProperties": "ignore",
+    "scss.lint.unknownAtRules": "ignore",
+    "scss.lint.unknownProperties": "ignore",
+    "tailwindCSS.lint.invalidTailwindDirective": "ignore",
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "tailwindCSS.classAttributes": [
+        "class = ",
+        "className: ",
+        "ngClass"
+    ]
+}
