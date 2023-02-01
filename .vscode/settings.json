@@ -27,5 +27,6 @@
         "class = ",
         "className: ",
         "ngClass"
-    ]
+    ],
+    "terminal.integrated.tabs.title": "${cwd}"
 }
