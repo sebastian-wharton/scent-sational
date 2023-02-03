@@ -1,0 +1,20 @@
+{
+    "prettier.tabWidth": 4,
+    "workbench.editor.pinnedTabSizing": "compact",
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.editor.wrapTabs": true,
+    "prettier.useTabs": true,
+    "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+    "editor.stickyTabStops": true,
+    "tailpile.tailwindcss.config": "client\\tailwind.config.cjs",
+    "workbench.editor.centeredLayoutAutoResize": false,
+    "files.exclude": {
+        "client\\vite.config.js": true,
+        ".vscode": true,
+        "client\\public": true
+    },
+    "workspace.isHidden": true,
+    "RainbowBrackets.showBracketsInRuler": true,
+    "RainbowBrackets.rulerPosition": "Left",
+    "debug.showBreakpointsInOverviewRuler": false
+}

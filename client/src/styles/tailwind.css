@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer .btnprimary{
+
+}
+@layer .btnSecondary{
+
+}
