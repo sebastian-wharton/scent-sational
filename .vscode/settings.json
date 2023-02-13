@@ -11,7 +11,8 @@
     "files.exclude": {
         "client\\vite.config.js": true,
         ".vscode": true,
-        "client\\public": true
+        "client\\public": true,
+        "client\\.gitignore": true
     },
     "workspace.isHidden": true,
     "RainbowBrackets.showBracketsInRuler": true,

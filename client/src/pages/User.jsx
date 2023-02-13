@@ -1,7 +1,7 @@
 const User = () => {
 	return (
 		<>
-			<h1>User</h1>
+			<h1 className='text-3xl mt-32 ml-4'>User</h1>
 		</>
 	);
 };

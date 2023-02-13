@@ -1,17 +1,19 @@
 import React from 'react';
 import Newsletter from '../components/Newsletter';
 import Banner from '../components/Banner';
+import AdCards from '../components/AdCards';
 
 const Home = () => {
 	return (
 		<>
-			<h1 className='text-2xl text-blue font-bold absolute left-20 top-60'>
-				Home
-			</h1>
-			<Newsletter />
-			<Banner />
-			<div className='box1'>
-				<h3>Box1</h3>
+			<div className='border-2 h-60 w-screen bg-pink5'>
+				<Banner />
+			</div>
+			<div className='border-2 h-20 w-screen bg-pink4'>
+				<Newsletter />
+			</div>
+			<div className='border-2 w-screen bg-pink5'>
+				<AdCards />
 			</div>
 		</>
 	);

@@ -1,48 +1,35 @@
-import React from 'react';
-import logo from '../assets/logo.svg';
-import SocialBtns from './SocialBtns';
-
 const Footer = () => {
 	return (
 		<>
-			{/* <div className='footer parent'>
+			<div className='absolute bottom-0 flex items-center justify-evenly bg-pink4 text-text-pinkText w-screen h-28'>
 				<div className='logo'>
-					<img
-						src={logo}
-						alt='SCENT-sational logo'
-						className='h-12 m-2'
-					/>
-					<SocialBtns />
+					<h1>Logo</h1>
+					<div className='social'>
+						<ul className='flex gap-2'>
+							<li>Link</li>
+							<li>Link</li>
+							<li>Link</li>
+						</ul>
+					</div>
+					<p>@Copyright Kaila Hill</p>
 				</div>
-				<div className='footercolumn'> */}
-					<h1>Footer</h1>
-					{/* <ul>
-						<li>
-							<Link to='/'>Home</Link>
-						</li>
-						<li>
-							<Link to='/blogs'>Blogs</Link>
-						</li>
-						<li>
-							<Link to='/contact'>Contact</Link>
-						</li>
-					</ul>
-				</div>
-				<div className='footercolumn'>
+				<div className='flex flex-col'>
 					<h3>Title</h3>
 					<ul>
-						<li>
-							<Link to='/'>Home</Link>
-						</li>
-						<li>
-							<Link to='/blogs'>Blogs</Link>
-						</li>
-						<li>
-							<Link to='/contact'>Contact</Link>
-						</li>
+						<li>Link</li>
+						<li>Link</li>
+						<li>Link</li>
 					</ul>
 				</div>
-			</div> */}
+				<div className='flex flex-col'>
+					<h3>Title</h3>
+					<ul>
+						<li>Link</li>
+						<li>Link</li>
+						<li>Link</li>
+					</ul>
+				</div>
+			</div>
 		</>
 	);
 };

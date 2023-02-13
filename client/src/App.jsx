@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-import './styles/tailwind.css';
 import Layout from './pages/Layout';
 
 import Home from './pages/Home';
@@ -9,6 +8,7 @@ import Store from './pages/Store';
 import Cart from './pages/Cart';
 import Products from './pages/Products';
 import NoPage from './pages/NoPage';
+import './styles/tailwind.css';
 
 function App() {
 	return (
