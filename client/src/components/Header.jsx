@@ -10,7 +10,7 @@ const Header = () => {
 	return (
 		<>
 			<div
-				className='ctn bg-pink4 text-pinkText w-screen
+				className='ctn bg-pink2 text-pinkText w-screen
 			 h-16 sticky top-0 flex justify-between items-center pr-2'>
 				<img
 					src={logo}

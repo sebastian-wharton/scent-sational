@@ -1,7 +1,7 @@
 const Footer = () => {
 	return (
 		<>
-			<div className='absolute bottom-0 flex items-center justify-evenly bg-pink4 text-text-pinkText w-screen h-28'>
+			<div className='absolute bottom-0 flex items-center justify-evenly bg-pink2 text-pinkText w-screen h-28'>
 				<div className='logo'>
 					<h1>Logo</h1>
 					<div className='social'>
