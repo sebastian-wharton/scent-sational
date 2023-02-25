@@ -1,25 +1,20 @@
-require('dotenv').config()
+require('dotenv').config();
 
-// Libraries
 const express = require('express');
+const productRoutes = require('./routes/products');
+
 const app = express();
-const mongoose = require('mongoose');
 
-// DB Connection
-mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true });
-const db = mongoose.connection;
-db.on('error', (error) => console.error(error));
-db.once('open', () => console.log('Connected to Database'));
+// middleware
+app.use((req, res, next) => {
+	console.log(req.path, req.method);
+	next();
+});
 
-// Server can accept JSON ( instead of HTTP method )
-app.use(express.json());
+// routes
+app.use('/api/products', productRoutes);
 
-// Middleware
-
-// Router
-const usersRouter = require('./routes/users');
-app.use('/subscribers', usersRouter);
-
-
-// Browser event listener
-app.listen(3000, () => console.log('Server Started'));
+// listen for requests
+app.listen(process.env.PORT, () => {
+	console.log('listening on port', process.env.PORT);
+});
