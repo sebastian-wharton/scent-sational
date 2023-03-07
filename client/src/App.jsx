@@ -16,8 +16,7 @@ function App() {
 			<Routes>
 				<Route
 					path='/'
-					element={<Layout />}
-				>
+					element={<Layout />}>
 					<Route
 						path='home'
 						element={<Home />}
