@@ -12,10 +12,18 @@
         "client\\vite.config.js": true,
         ".vscode": true,
         "client\\public": true,
-        "client\\.gitignore": true
+        "client\\.gitignore": true,
+        "server\\package-lock.json": true,
+        ".gitignore": true
     },
     "workspace.isHidden": true,
     "RainbowBrackets.showBracketsInRuler": true,
     "RainbowBrackets.rulerPosition": "Left",
-    "debug.showBreakpointsInOverviewRuler": false
+    "debug.showBreakpointsInOverviewRuler": false,
+    "editor.formatOnPaste": true,
+    "terminal.integrated.rightClickBehavior": "paste",
+    "workbench.tree.indent": 4,
+    "editor.autoIndent": "brackets",
+    "editor.guides.indentation": true,
+    "sass.format.debug": true
 }
